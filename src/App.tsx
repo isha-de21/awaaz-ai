@@ -572,7 +572,7 @@ import {
   AreaChart,
   Area
 } from "recharts";
-import { motion, AnimatePresence } from "framer-motion";
+
 
 // ---------------------------------------------
 // AWAaZ — Psychiatric AI Chatbot (Frontend Mock)
