@@ -1,0 +1,46 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom CSS variables (optional) */
+/* :root{
+  --awaaz-teal-12: rgba(16,185,129,0.12);
+}
+
+/* Add a utility for your exact gradient: rgba(16,185,129,0.12) then transparent at 60% */
+/* @layer utilities {
+  .bg-awaaz-gradient {
+    background: linear-gradient(180deg, rgba(16,185,129,0.12) 40%, transparent 60%);
+  }
+} */
+
+/* you can also create a softer background utility using the configured color */
+/* .bg-awaaz-soft {
+  background-color: rgba(16,185,129,0.04);
+}  */
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🔹 Global Styles for awaaz-frontend */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: theme('fontFamily.sans'); /* default Tailwind font */
+  background-color: #0f172a; /* navy blue base background */
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Bubble wordmark styling (optional, overrides if needed) */
+.bubble-text {
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 2px;
+}
